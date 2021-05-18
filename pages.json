@@ -1,0 +1,25 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+            "path" : "pages/video/video",
+            "style" : {
+				"navigationBarTitleText": "首页",
+				"scrollIndicator": "none",//隐藏滚动条//vue有效
+				"bounce": "none"//隐藏页面回弹效果
+			}
+        }
+        ,{
+            "path" : "pages/TV/TV",
+            "style" : {
+				"navigationBarTitleText": "电视",
+				"scrollIndicator": "none",//隐藏滚动条//vue有效
+				"bounce": "none"//隐藏页面回弹效果
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#FFFFFF"
+	}
+}
